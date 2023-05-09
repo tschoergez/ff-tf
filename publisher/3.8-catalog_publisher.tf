@@ -25,7 +25,7 @@ provider "vcd" {
 data "vcd_storage_profile" "storage_profile" {
   org  = var.org
   vdc  = var.vdc
-  name = "*"
+  name = "lab-shared-storage"
 }
 
 data "local_sensitive_file" "password_file" {

@@ -1,6 +1,6 @@
 vcd_url  = "https://vcd.tanzu.lab"
 org      = "pied-piper"
 vdc      = "nextgen-cloud"
-user     = "richard"
+user     = "admin"
 password = "VMware1!"
-ova_path = "../"
+ova_path = "../../"

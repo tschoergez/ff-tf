@@ -3,6 +3,7 @@ variable "password" {}
 variable "vcd_url" {}
 variable "org" {}
 variable "vdc" {}
+variable "subscription_url" {}
 
 provider "vcd" {
   user                 = var.user
@@ -24,7 +25,7 @@ provider "vcd" {
 data "vcd_storage_profile" "storage_profile" {
   org  = var.org
   vdc  = var.vdc
-  name = "*"
+  name = "lab-shared-storage"
 }
 
 data "local_sensitive_file" "password_file" {
