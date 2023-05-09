@@ -1,0 +1,6 @@
+vcd_url  = "https://vcd.tanzu.lab"
+org      = "ecorp"
+vdc      = "hackers-cloud"
+user     = "tyrell"
+password = "VMware1!"
+subscription_url = "REPLACE this variable with subscription URL obtained from publishing catalog"
