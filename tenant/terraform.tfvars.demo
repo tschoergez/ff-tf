@@ -1,0 +1,5 @@
+vcd_url  = "https://vcd.tanzu.lab"
+org      = "stark"
+vdc      = "vmware-cloud"
+user     = "tony"
+password = "VMware1!"
