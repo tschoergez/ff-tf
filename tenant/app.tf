@@ -29,8 +29,6 @@ provider "vcd" {
   vdc                  = var.vdc
   allow_unverified_ssl = true
   max_retry_timeout    = 600
-  max_retry_timeout    = 60
-  allow_unverified_ssl = true
   #logging              = true
   #logging_file         = "tenant-debug.log"
 }
